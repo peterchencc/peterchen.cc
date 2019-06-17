@@ -23,7 +23,7 @@ module.exports = {
       ref  : 'origin/master',
       repo : 'git@github.com:peterchencc/peterchen.cc.git',
       path : '/home/deploy/peterchen.cc',
-      'post-deploy' : 'npm install && npm run build && pm2 startOrReload node_modules/gatsby/dist/bin/gatsby.js --name peterchen.cc -- serve'
+      'post-deploy' : 'npm install && npm run build && pm2 start node_modules/gatsby/dist/bin/gatsby.js --name peterchen.cc -- serve'
     }
   }
 };
