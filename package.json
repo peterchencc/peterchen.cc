@@ -1,8 +1,9 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "peterchen.cc",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Personal website running on Gatsby, React.",
   "version": "0.1.0",
+  "author": "Peter Chen <peterchencc@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -33,12 +34,5 @@
   },
   "devDependencies": {
     "prettier": "^1.18.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
