@@ -6,8 +6,10 @@ export default ({ data }) => (
   <Layout>
     <h1>About {data.site.siteMetadata.title}</h1>
     <p>
-      We're the only site running on your computer dedicated to showing the best
-      photos and videos of pandas eating lots of food.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit asperiores
+      eum rem architecto vitae, eligendi quibusdam repellat officiis!
+      Perspiciatis animi id tenetur, cum repellat nostrum mollitia aliquid
+      dolores ab vitae.
     </p>
   </Layout>
 )
