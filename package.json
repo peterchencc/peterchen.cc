@@ -14,18 +14,18 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
-    "@emotion/core": "^10.0.10",
-    "gatsby": "^2.9.4",
-    "gatsby-plugin-emotion": "^4.0.7",
-    "gatsby-plugin-manifest": "^2.2.1",
-    "gatsby-plugin-offline": "^2.2.1",
-    "gatsby-plugin-react-helmet": "^3.1.0",
-    "gatsby-plugin-typography": "^2.2.13",
-    "gatsby-source-filesystem": "^2.1.0",
-    "gatsby-transformer-remark": "^2.5.0",
-    "pm2": "^3.5.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "@emotion/core": "^10.0.35",
+    "gatsby": "^2.24.54",
+    "gatsby-plugin-emotion": "^4.3.10",
+    "gatsby-plugin-manifest": "^2.4.28",
+    "gatsby-plugin-offline": "^2.2.10",
+    "gatsby-plugin-react-helmet": "^3.3.10",
+    "gatsby-plugin-typography": "^2.5.10",
+    "gatsby-source-filesystem": "^2.3.28",
+    "gatsby-transformer-remark": "^2.8.33",
+    "pm2": "^3.5.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
@@ -33,6 +33,6 @@
     "typography-theme-kirkham": "^0.16.19"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^1.19.1"
   }
 }
