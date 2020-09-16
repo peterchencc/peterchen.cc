@@ -4,7 +4,17 @@ const path = require(`path`)
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` })
+    let slug
+    if (Object.prototype.hasOwnProperty.call(node.frontmatter, "slug")) {
+      slug = `/${node.frontmatter.slug}`
+    } else {
+      slug = createFilePath({
+        node,
+        getNode,
+        trailingSlash: false,
+      })
+    }
+
     createNodeField({
       node,
       name: `slug`,
@@ -27,8 +37,7 @@ exports.createPages = ({ graphql, actions }) => {
         }
       }
     }
-  `
-  ).then(result => {
+  `).then(result => {
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
         path: node.fields.slug,
