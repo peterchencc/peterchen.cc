@@ -20,8 +20,9 @@ module.exports = {
           a: {
             position: "relative",
             textDecoration: "none",
+            fontWeight: theme("fontWeight.semibold"),
             "&:after": {
-              content: "",
+              content: "''",
               position: "absolute",
               zIndex: "-1",
               top: "60%",
@@ -32,7 +33,6 @@ module.exports = {
               backgroundColor: theme("colors.blue.200"),
             },
             "&:hover": {
-              color: "#3182ce",
               "&:after": {
                 top: "0%",
               },
