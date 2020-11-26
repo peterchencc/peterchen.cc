@@ -38,6 +38,11 @@ module.exports = {
               },
             },
           },
+          figure: {
+            figcaption: {
+              textAlign: "center",
+            },
+          },
         },
       },
     }),
