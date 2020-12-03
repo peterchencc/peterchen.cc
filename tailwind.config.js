@@ -9,6 +9,12 @@ module.exports = {
       colors: {
         "chelsea-blue": "#023E8A",
       },
+      inset: {
+        32: "8rem",
+      },
+      maxWidth: {
+        prose: "65ch",
+      },
     },
     container: {
       center: true,
@@ -21,6 +27,7 @@ module.exports = {
             position: "relative",
             textDecoration: "none",
             fontWeight: theme("fontWeight.semibold"),
+            whiteSpace: "nowrap",
             "&:after": {
               content: "''",
               position: "absolute",
