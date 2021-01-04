@@ -16,30 +16,40 @@ export default ({ data }) => {
         <title>{`${post.frontmatter.title} – ${site.siteMetadata.title}`}</title>
       </Helmet>
       <div className="container">
-        <div className="grid">
+        <div className="md:grid">
           <div className="col-start-1 col-end-3">
-            <div className="bg-blue-100 pt-12 sm:pt-32 pb-12 md:text-center lg:text-left">
+            <div className="pt-12 pb-12 sm:pt-32 md:text-center lg:text-left">
               <h1>{post.frontmatter.title}</h1>
             </div>
           </div>
-          <div className="sticky h-screen top-32">
-            <div>Last Updated: {post.frontmatter.date}</div>
-            <div className="">Project name: {post.frontmatter.projectName}</div>
-            <div className="">
-              <ul>
+          <div className="md:sticky md:h-screen md:top-32">
+            <div className="text-gray-700">
+              <span className="">Last Updated:</span> {post.frontmatter.date}
+            </div>
+            <div className="text-gray-700">
+              <span className="">Project Name:</span>{" "}
+              {post.frontmatter.projectName}
+            </div>
+            <div className="text-gray-700">
+              <ul className="pt-4 flex flex-wrap md:block">
                 {post.frontmatter.tags &&
                   post.frontmatter.tags.map((tag) => {
                     return (
-                      <li key={tag} className="">
-                        {tag}
+                      <li key={tag} className="w-auto mr-2 mb-2">
+                        <span className="px-2 py-1 text-sm bg-gray-200 rounded">
+                          #{tag}
+                        </span>
                       </li>
                     )
                   })}
               </ul>
             </div>
           </div>
-          <div className="">
-            <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
+          <div className="py-4 md:pt-0">
+            <Img
+              className="my-12 md:mt-0 md:mb-8"
+              fluid={post.frontmatter.featuredImage.childImageSharp.fluid}
+            />
             <article class="m-auto prose sm:prose-sm lg:prose-lg xl:prose-lg">
               <MDXRenderer>{post.body}</MDXRenderer>
             </article>
@@ -59,7 +69,7 @@ export const query = graphql`
       body
       frontmatter {
         title
-        date
+        date(formatString: "DD MMM, YYYY")
         projectName
         tags
         featuredImage {
