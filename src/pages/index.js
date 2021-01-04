@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 import Layout from "../components/Layout"
 import Project from "../components/Project"
 import MyCV from "../../static/peterchen-2020.pdf"
@@ -22,14 +23,14 @@ export default ({ data }) => {
                 about me
               </Link>{" "}
               or{" "}
-              <a
+              <OutboundLink
                 className="font-semibold underline"
                 href={MyCV}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 view my resume
-              </a>
+              </OutboundLink>
             </p>
           </div>
 
