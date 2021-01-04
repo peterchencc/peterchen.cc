@@ -1,13 +1,19 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
 import Layout from "../components/Layout"
 import Project from "../components/Project"
 import MyCV from "../../static/peterchen-2020.pdf"
 
 export default ({ data }) => {
+  const site = data.site
+
   return (
     <Layout>
+      <Helmet>
+        <title>{`${site.siteMetadata.title} - peterchen.cc`}</title>
+      </Helmet>
       <section className="bg-chelsea-blue py-20 h-auto">
         <div className="container">
           <div className="w-full text-white">
@@ -42,6 +48,7 @@ export default ({ data }) => {
                   href="https://www.linkedin.com/in/peterchencc/"
                   className="rounded-full h-10 w-10 flex items-center justify-center"
                   style={{ backgroundColor: "#0077B5" }}
+                  rel="noreferrer"
                 >
                   <svg
                     className="h-5 w-5 fill-current text-white"
@@ -60,6 +67,7 @@ export default ({ data }) => {
                   href="https://github.com/peterchencc"
                   className="rounded-full h-10 w-10 flex items-center justify-center"
                   style={{ backgroundColor: "#181717" }}
+                  rel="noreferrer"
                 >
                   <svg
                     className="h-5 w-5 fill-current text-white"
@@ -78,6 +86,7 @@ export default ({ data }) => {
                   href="https://twitter.com/peterchencc"
                   className="rounded-full h-10 w-10 flex items-center justify-center"
                   style={{ backgroundColor: "#1DA1F2" }}
+                  rel="noreferrer"
                 >
                   <svg
                     className="h-5 w-5 fill-current text-white"
@@ -96,6 +105,7 @@ export default ({ data }) => {
                   href="https://codepen.io/peterchencc"
                   className="rounded-full h-10 w-10 flex items-center justify-center"
                   style={{ backgroundColor: "#000000" }}
+                  rel="noreferrer"
                 >
                   <svg
                     className="h-5 w-5 fill-current text-white"
@@ -114,6 +124,7 @@ export default ({ data }) => {
                   href="https://www.instagram.com/peterchencc/"
                   className="rounded-full h-10 w-10 flex items-center justify-center"
                   style={{ backgroundColor: "#E4405F" }}
+                  rel="noreferrer"
                 >
                   <svg
                     className="h-5 w-5 fill-current text-white"
@@ -237,6 +248,11 @@ export const query = graphql`
           }
           excerpt
         }
+      }
+    }
+    site: site {
+      siteMetadata {
+        title
       }
     }
   }
