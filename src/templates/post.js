@@ -3,7 +3,6 @@ import { Helmet } from "react-helmet"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-import Img from "gatsby-image"
 import { Link } from "gatsby"
 
 export default ({ data }) => {
