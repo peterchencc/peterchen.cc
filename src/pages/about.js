@@ -1,25 +1,27 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Layout from "../components/layout"
+import { MDXRenderer } from "gatsby-plugin-mdx"
+import Layout from "../components/Layout"
 
-export default ({ data }) => (
-  <Layout>
-    <h1>About {data.site.siteMetadata.title}</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit asperiores
-      eum rem architecto vitae, eligendi quibusdam repellat officiis!
-      Perspiciatis animi id tenetur, cum repellat nostrum mollitia aliquid
-      dolores ab vitae.
-    </p>
-  </Layout>
-)
+export default ({ data }) => {
+  const body = data.mdx.body
+
+  return (
+    <Layout>
+      <div className="container mx-auto my-12">
+        <section className="mx-auto prose prose-sm sm:prose lg:prose-lg xl:prose-xl">
+          <h1>About me</h1>
+          <MDXRenderer>{body}</MDXRenderer>
+        </section>
+      </div>
+    </Layout>
+  )
+}
 
 export const query = graphql`
   query {
-    site {
-      siteMetadata {
-        title
-      }
+    mdx(frontmatter: { title: { eq: "About Me" }, template: { eq: "page" } }) {
+      body
     }
   }
 `
