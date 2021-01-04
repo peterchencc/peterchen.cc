@@ -21,7 +21,8 @@ export default ({ data }) => {
               Hello, I am Peter.
             </h1>
             <p className="font-bold text-3xl sm:text-5xl mb-16">
-              6+ years experience building beautiful web experiences.
+              I'm a Software Engineer with 6+ years experience building web
+              products.
             </p>
             <p className="font-thin text-base sm:text-xl mb-4">
               Learn more{" "}
