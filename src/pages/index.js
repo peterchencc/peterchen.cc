@@ -146,7 +146,7 @@ export default ({ data }) => {
         </div>
         <div className="">
           {data.posts.edges.map(({ node }) => (
-            <Link to={node.fields.slug}>
+            <Link key={node.id} to={node.fields.slug}>
               <div
                 className="max-w-md mx-auto rounded-lg overflow-hidden md:max-w-4xl mb-6 px-4 py-4 bg-white hover:bg-gray-100"
                 key={node.id}
