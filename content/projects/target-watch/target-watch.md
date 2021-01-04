@@ -5,7 +5,7 @@ thumbnail: thumbnail.png
 featuredImage: featured.png
 projectName: "Target Watch"
 title: "TargetWatch - get updates on analyst projections to buy and sell stocks"
-date: "2020-10-20"
+date: "2020-10-27"
 description: "A web app designed for stock investor who can easily get updates from analyst ratings, current prices and organize your watch list."
 tags:
   - React
