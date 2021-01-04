@@ -3,7 +3,7 @@ const path = require(`path`)
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
-  if (node.internal.type === `MarkdownRemark`) {
+  if (node.internal.type === `Mdx`) {
     let slug
     if (Object.prototype.hasOwnProperty.call(node.frontmatter, "slug")) {
       slug = `/${node.frontmatter.slug}`
@@ -27,9 +27,13 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return graphql(`
     {
-      allMarkdownRemark {
+      allMdx {
         edges {
           node {
+            frontmatter {
+              template
+              published
+            }
             fields {
               slug
             }
@@ -37,17 +41,36 @@ exports.createPages = ({ graphql, actions }) => {
         }
       }
     }
-  `).then(result => {
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      createPage({
-        path: node.fields.slug,
-        component: path.resolve(`./src/templates/blog-post.js`),
-        context: {
-          // Data passed to context is available
-          // in page queries as GraphQL variables.
-          slug: node.fields.slug,
-        },
-      })
+  `).then((result) => {
+    result.data.allMdx.edges.forEach(({ node }) => {
+      // createPage({
+      //   path: node.fields.slug,
+      //   component: path.resolve(`./src/templates/post.js`),
+      //   context: {
+      //     slug: node.fields.slug,
+      //   },
+      // })
+      // const template = node.frontmatter.template
+      if (node.frontmatter.template === "project") {
+        createPage({
+          path: node.fields.slug,
+          component: path.resolve(`./src/templates/project.js`),
+          context: {
+            slug: node.fields.slug,
+          },
+        })
+      } else if (
+        node.frontmatter.template === "post" &&
+        node.frontmatter.published
+      ) {
+        createPage({
+          path: node.fields.slug,
+          component: path.resolve(`./src/templates/post.js`),
+          context: {
+            slug: node.fields.slug,
+          },
+        })
+      }
     })
   })
 }

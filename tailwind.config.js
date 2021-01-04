@@ -50,6 +50,12 @@ module.exports = {
               textAlign: "center",
             },
           },
+          "code::before": {
+            content: '""',
+          },
+          "code::after": {
+            content: '""',
+          },
         },
       },
     }),
