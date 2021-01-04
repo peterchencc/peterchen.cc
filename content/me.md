@@ -43,17 +43,19 @@ I like to communicate with people. because my companies where I stay are small. 
 
 Because attending bootcamp changed me a lot. So I give back to bootcamp community. Being a teaching assistant for web development bootcamp in Singapore, held daily office hours to provide support to students' learning process. And joining study group with others coding bootcamp alumni.
 
+<!--
 ### Side Project
 
 時間飛快 學新技術
 有些ｉｄｅａ
 learing invertment
 hope more to come
+-->
 
-### Activities
+### More about me
 
 I play volleyball a lot, my position is the setter. Joining the school team since high school and collage as well, and played the tournament with local club in Singapore. 🏐
 
-I love cycling. I have achieved challenges to cycling around Taiwan, twice! It's a great journey for me to slow down and enjoy my homeland. And sometimes I cycling to work with my lovely [Brompton](https://www.brompton.com/) folding bike. I love it so much. 🚴🏻‍♂️
+I love cycling. I have achieved challenges to cycling around Taiwan, twice! It's a great journey for me to slow down and enjoy my homeland. And sometimes I cycle to work with my lovely [Brompton](https://www.brompton.com/) folding bike. 🚴🏻‍♂️
 
 I watch football and support **Chelsea FC**! Blue is the colour! ⚽️ 🔵
