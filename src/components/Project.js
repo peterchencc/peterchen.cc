@@ -41,7 +41,7 @@ const Project = ({ data }) => {
             return (
               <span
                 key={tag}
-                className="inline-block rounded-full px-3 py-1 text-sm font-semibold bg-blue-100 hover:bg-blue-200 mr-2 mb-2"
+                className="inline-block rounded-full px-3 py-1 text-sm font-semibold bg-blue-100 mr-2 mb-2"
               >
                 {tag}
               </span>
