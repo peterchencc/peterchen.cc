@@ -77,7 +77,7 @@ There are three ways to do the lazy loading for off-screen images:
 
 Because of the browser compatibility, I choose to use event handlers for lazy loading part.
 
-![venue-reviews-scrolling](venue-reviews-scrolling.gif)
+![reviews-scrolling](reviews-scrolling.gif)
 
 We also make some changes on `lazy_load_image_tag` method, so that we can add `srcset` attribute to [serve responsive image](https://web.dev/serve-responsive-images/).
 
