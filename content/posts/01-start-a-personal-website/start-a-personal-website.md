@@ -12,7 +12,7 @@ categories:
   - react
 ---
 
-_Short description, and put an screenshot image below_
+![](homepage-screenshot.png)
 
 ## Finally 😅
 
