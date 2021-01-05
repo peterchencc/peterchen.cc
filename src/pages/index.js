@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
-import { OutboundLink } from "gatsby-plugin-google-analytics"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 import Layout from "../components/Layout"
 import Project from "../components/Project"
 import MyCV from "../../static/peterchen-2020.pdf"

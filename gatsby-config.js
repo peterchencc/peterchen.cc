@@ -18,10 +18,9 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: "G-3QGFG845J5",
-        head: true,
+        trackingIds: ["G-3QGFG845J5"],
       },
     },
     {
