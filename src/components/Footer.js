@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 import Emoji from "./Emoji"
 
 const Footer = () => {
@@ -29,16 +30,16 @@ const Footer = () => {
           <div>
             © {new Date().getFullYear()}, Built with
             {` `}
-            <a href="https://www.gatsbyjs.com">Gatsby</a>
+            <OutboundLink href="https://www.gatsbyjs.com">Gatsby</OutboundLink>
           </div>
 
           <div className="flex justify-end">
-            <a
+            <OutboundLink
               className="ml-2"
               href="https://github.com/peterchencc/peterchen.cc"
             >
               Source Code
-            </a>
+            </OutboundLink>
             <Link className="ml-2" to="/about">
               About
             </Link>
