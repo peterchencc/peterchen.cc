@@ -6,7 +6,7 @@ featuredImage: ficoach-thumbnail.png
 projectName: "FiCoach"
 title: "FiCoach - help you find the right sports coach."
 date: "2020-09-10"
-description: A platform to help you find the right sports coach.
+description: A web app for fitness enthusiasts to find coaches for various sports.
 tags:
   - Ruby
   - Rails

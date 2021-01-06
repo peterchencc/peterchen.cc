@@ -1,9 +1,9 @@
 ---
 template: "post"
-slug: "posts/start-a-personal-website-with-gatsby"
+slug: "posts/starting-a-personal-website-with-gatsby"
 thumbnail:
 featuredImage:
-title: "Start a Personal Website with Gatsby"
+title: "Starting a personal website with Gatsby"
 date: "2020-09-19"
 published: true
 categories:

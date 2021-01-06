@@ -1,9 +1,9 @@
 ---
 template: "post"
-slug: "posts/use-amp-to-build-great-experiences"
+slug: "posts/adopting-amp-to-build-great-experience"
 thumbnail:
 featuredImage:
-title: "Use AMP to Build Great Experiences"
+title: "Adopting AMP to build great experience"
 date: "2020-10-29"
 published: true
 categories:

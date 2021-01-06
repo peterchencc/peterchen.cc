@@ -1,13 +1,12 @@
 ---
 template: "post"
-slug: "posts/improve-website-performance-at-burpple"
+slug: "posts/optimizing-website-performance-at-burpple"
 thumbnail:
 featuredImage:
-title: "Improve Website Performance at Burpple"
+title: "Optimizing Website Performance at Burpple"
 date: "2020-11-05"
 published: true
 categories:
-  - burpple
   - ruby
   - rails
   - javascript
@@ -16,7 +15,7 @@ categories:
   - web
 ---
 
-While working on [AMP's task](/posts/use-amp-to-build-great-experiences), I continue to do lots of research on how to optimize website speed!
+While working on [AMP's task](/posts/adopting-amp-to-build-great-experience), I continue to do lots of research on how to optimize website speed!
 
 I took a course about [Website Performance Optimization](https://www.udacity.com/course/website-performance-optimization--ud884) on Udacity. Learned how to optimize website for speed, diving into the details of how mobile and desktop browsers render the pages, such as parsing HTML, **Critical Rendering Path**, render-blocking, etc. And some tips on how to use Chrome’s Developer Tools for debugging and to see the loading timeline. Using [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) (or running [Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools) and [WebPageTest](https://www.webpagetest.org/) to measure the performance data and find out what kind of strategies or opportunities that can be improved in our website.
 

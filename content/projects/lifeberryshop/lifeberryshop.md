@@ -4,9 +4,9 @@ slug: projects/lifeberryshop
 thumbnail: thumbnail.png
 featuredImage: thumbnail.png
 projectName: "Lifeberryshop"
-title: "Lifeberryshop - shopping cart and administration system"
+title: "Lifeberryshop - E-commerce web app"
 date: "2020-10-10"
-description: E-commerce webapp with shopping cart and administration system
+description: An e-commerce web app with shopping cart and system for inventory and order management.
 tags:
   - Ruby
   - Rails

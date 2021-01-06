@@ -6,7 +6,7 @@ featuredImage: featured.png
 projectName: "Target Watch"
 title: "TargetWatch - get updates on analyst projections to buy and sell stocks"
 date: "2020-10-27"
-description: "A web app designed for stock investor who can easily get updates from analyst ratings, current prices and organize your watch list."
+description: "A web app designed for stock investors to get a snapshot of analyst ratings, price targets, and current prices on their watch lists."
 tags:
   - React
   - JavaScript
@@ -22,7 +22,7 @@ the code here: [https://github.com/peterchencc/target-watch](https://github.com/
 
 ## The Idea
 
-Target Watch is a web app designed for stock investor who can easily get updates from analyst ratings, current prices and organize your watch list.
+Target Watch is a web app designed for stock investors to get a snapshot of analyst ratings, price targets, and current prices on their watch lists.
 
 The idea came with me and my wife. We was learning to invest in stock market. We usually take the recommendations from others analyst ratings website before we do the buy/sell actions. Like how many percentage still have between current price and rating price. So we want to have an app to easily help our investment decisions. And manage our watch list to get a quick view to support our decisions.
 

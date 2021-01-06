@@ -1,9 +1,9 @@
 ---
 template: "post"
-slug: "posts/built-a-subscription-based-program"
+slug: "posts/building-a-subscription-based-program"
 thumbnail:
 featuredImage:
-title: "Built a Subscription Based Program"
+title: "Building a subscription based program"
 date: "2020-10-29"
 published: true
 categories:
@@ -12,7 +12,7 @@ categories:
   - javascript
   - html
   - css
-  - web
+  - svg
 ---
 
 ![https://www.burpple.com/beyond](burpple-beyond-screenshot.png)

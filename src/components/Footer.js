@@ -13,8 +13,8 @@ const Footer = () => {
               Contact me
             </div>
             <div>
-              If you like what you’ve seen on my site, feel free to get in
-              touch! <Emoji symbol="😉" label="Winking Face" />
+              If you like what you saw on my site, feel free to get in touch!{" "}
+              <Emoji symbol="😉" label="Winking Face" />
             </div>
             <div className="">
               Shoot me a email at{" "}
