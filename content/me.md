@@ -5,9 +5,9 @@ title: About Me
 
 Hey, nice to meet you. I'm Peter Chen from Taiwan. 👋
 
-I'm a **Software Engineer** working at **Singapore** previously. Focusing on the web platform, more on **front-end** side.
+I'm a **Software Engineer** working in **Singapore** previously.
 
-I'm easy-going, a team player and have a good product sense. Always passionate to improve user experience and contribute to products from an engineering perspective.
+Always passionate to improve user experience and contribute to products from an engineering perspective.
 
 This is my website where I write about software engineering and other stuff that I am interested in.
 
@@ -15,7 +15,7 @@ I currently live in **Taipei, Taiwan**. And about to move to **Berlin, Germany**
 
 ### First Job & Turning Point
 
-After my computer science degree and finished my one-year military duty, I've been using PHP on my first job in a corporate company. It’s a digital media publisher that focused on technology news, product reviews, interior design, and traveling.
+After my computer science degree and finishing my one-year military duty, I've been using PHP on my first job in a corporate company. It’s a digital media publisher that focused on technology news, product reviews, interior design, and traveling.
 
 While working on real programming stuff, I found out that web development is really what I want. And how we can building on the internet is really cool! I want to build and involve amazing products that peoples use.
 
@@ -27,11 +27,11 @@ I took 3-month as a web development intern in a Singapore-based development stud
 
 ### Full-Stack in Startup
 
-After a short-term intern in Singapore. A bootcamp's alumnus invite me to join his startup. **Meet.jobs** help talented people to find jobs in the global market.
+After a short-term intern in Singapore, a bootcamp's alumnus invited me to join his startup. **Meet.jobs** helped talented people to find jobs in the global market.
 
-I was the only Full-Stack engineer back then. Built the job site from scratch, and developed all key features for internationalization site by **Ruby on Rails**.
+I was the only Full-Stack engineer back then, building the job site from scratch, and developing all key features for internationalization site by **Ruby on Rails**.
 
-I also took on product management responsibility, closely working with founders to accommodate revenue model evolvement, draw prototypes, prioritize tasks and features, server maintenance, mentor others engineers and running our scrum.
+I also took on product management responsibility, closely working with founders to accommodate revenue model evolvement, prototyping, prioritizing features, server maintenance, mentoring other engineers, and running our scrum.
 
 ### Relocate to Singapore
 
