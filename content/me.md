@@ -3,15 +3,14 @@ template: page
 title: About Me
 ---
 
-Hey, nice to meet you. I'm Peter Chen from Taiwan. 👋
+Hey, nice to meet you. I'm Peter Chen. 👋
+I come from Taiwan and currently live in **Berlin, Germany**. 🇩🇪
 
 I'm a **Software Engineer** working in **Singapore** previously.
 
 Always passionate to improve user experience and contribute to products from an engineering perspective.
 
 This is my website where I write about software engineering and other stuff that I am interested in.
-
-I currently live in **Taipei, Taiwan**. And about to move to **Berlin, Germany**!
 
 ### First Job & Turning Point
 
