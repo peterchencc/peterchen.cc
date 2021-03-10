@@ -4,6 +4,7 @@ title: About Me
 ---
 
 Hey, nice to meet you. I'm Peter Chen. 👋
+
 I come from Taiwan and currently live in **Berlin, Germany**. 🇩🇪
 
 I'm a **Software Engineer** working in **Singapore** previously.
