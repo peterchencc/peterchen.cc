@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet"
 import { OutboundLink } from "gatsby-plugin-google-gtag"
 import Layout from "../components/Layout"
 import Project from "../components/Project"
-import MyCV from "../../static/peterchen-2020.pdf"
+import MyCV from "../../static/peterchen-2021-CV.pdf"
 
 export default ({ data }) => {
   const site = data.site
