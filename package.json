@@ -34,7 +34,6 @@
     "gatsby-remark-vscode": "^3.3.0",
     "gatsby-source-filesystem": "^2.11.1",
     "gatsby-transformer-sharp": "^2.12.1",
-    "pm2": "^3.5.2",
     "prismjs": "^1.24.1",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
